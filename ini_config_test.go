@@ -11,8 +11,8 @@ type Config struct {
 }
 
 type ServerConfig struct {
-	Ip   string
-	Port int
+	Ip   string `ini:"ip"`
+	Port int    `ini:"port"`
 }
 
 type MysqlConfig struct {
